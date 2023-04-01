@@ -8,7 +8,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-	VideoCapture video(1);
+	VideoCapture video(0);
 	CascadeClassifier facedetect;
 	CascadeClassifier eyedetect;
 	facedetect.load("../haarcascades/haarcascade_frontalface_default.xml");
